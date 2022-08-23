@@ -1,13 +1,13 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
 
 description 'TRClassic\'s Dumpster Diving resource'
-version '1.0.0'
+version '1.1.0'
 
-author 'TRClassic'
+author 'lol'
 
 shared_script 'config.lua'
-client_script 'Client/*.lua'
-server_script 'Server/*.lua'
+client_script 'client/*.lua'
+server_script 'server/*.lua'
 
-lua54 'yes'
